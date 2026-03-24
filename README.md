@@ -1,8 +1,16 @@
 # 💰 Calculadora de Costes de Impresión 3D
 
-Una aplicación Android nativa, moderna y sencilla diseñada para *makers* y negocios de impresión 3D. Permite calcular con precisión el coste total de una pieza impresa y sugiere un precio de venta final (PVP) incluyendo margen de beneficio e IVA.
+Una aplicación Android nativa, moderna y sencilla diseñada para *makers* de la impresión 3D. Permite calcular con precisión el coste total de una pieza impresa y sugiere un precio de venta final (PVP) incluyendo margen de beneficio e IVA.
 
-## ✨ Características Principales
+## ✨ Novedades (Última Actualización)
+
+¡Ahora Calculadora3D es una herramienta "Todo en Uno"! He unificado el cálculo para las dos tecnologías de impresión más populares en una sola interfaz:
+
+* 🧵 🧪Soporte Dual (FDM y SLA): Alterna fácilmente entre presupuestos para **Filamento** y **Resina** usando el nuevo sistema de pestañas.
+* 🧤 Costes Ocultos de Resina: Añadido un campo específico para calcular los gastos extra del lavado, curado, alcohol isopropílico (IPA) y desgaste del FEP.
+* 🔌 Ajuste Inteligente de Energía: Al cambiar entre FDM y SLA, la calculadora ajusta automáticamente la potencia media típica de la máquina para ahorrarte tiempo.
+
+## 📱 Características Principales
 
 Esta herramienta desglosa el coste en cuatro bloques fundamentales:
 
