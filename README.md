@@ -2,6 +2,35 @@
 
 Una aplicación Android nativa, moderna y sencilla diseñada para *makers* de la impresión 3D. Permite calcular con precisión el coste total de una pieza impresa y sugiere un precio de venta final (PVP) incluyendo margen de beneficio e IVA.
 
+## 📱 Previsualización de la App
+
+<table style="width:100%; text-align:center;">
+  <tr>
+    <th>☀️ Modo Claro</th>
+    <th>🌙 Modo Oscuro</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/Screenshot_20260324_184736.png" width="250" alt="FDM Claro"/><br/>
+      <b>🧵 Filamento (FDM)</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/Screenshot_20260324_184712.png" width="250" alt="FDM Oscuro"/><br/>
+      <b>🧵 Filamento (FDM)</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/Screenshot_20260324_192553.png" width="250" alt="SLA Claro"/><br/>
+      <b>🧪 Resina (SLA)</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/Screenshot_20260324_184751.png" width="250" alt="SLA Oscuro"/><br/>
+      <b>🧪 Resina (SLA)</b>
+    </td>
+  </tr>
+</table>
+
 ## ✨ Novedades (Última Actualización)
 
 ¡Ahora Calculadora3D es una herramienta "Todo en Uno"! He unificado el cálculo para las dos tecnologías de impresión más populares en una sola interfaz:
@@ -10,7 +39,7 @@ Una aplicación Android nativa, moderna y sencilla diseñada para *makers* de la
 * 🧤 Costes Ocultos de Resina: Añadido un campo específico para calcular los gastos extra del lavado, curado, alcohol isopropílico (IPA) y desgaste del FEP.
 * 🔌 Ajuste Inteligente de Energía: Al cambiar entre FDM y SLA, la calculadora ajusta automáticamente la potencia media típica de la máquina para ahorrarte tiempo.
 
-## 📱 Características Principales
+## 🧾 Características Principales
 
 Esta herramienta desglosa el coste en cuatro bloques fundamentales:
 
