@@ -11,22 +11,22 @@ Una aplicación Android nativa, moderna y sencilla diseñada para *makers* de la
   </tr>
   <tr>
     <td align="center">
-      <img src="capturas/Screenshot_20260324_184736.png" width="250" alt="FDM Claro"/><br/>
       <b>🧵 Filamento (FDM)</b>
+      <img src="capturas/Screenshot_20260324_184736.png" width="250" alt="FDM Claro"/><br/>
     </td>
     <td align="center">
-      <img src="capturas/Screenshot_20260324_184712.png" width="250" alt="FDM Oscuro"/><br/>
       <b>🧵 Filamento (FDM)</b>
+      <img src="capturas/Screenshot_20260324_184712.png" width="250" alt="FDM Oscuro"/><br/>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="capturas/Screenshot_20260324_192553.png" width="250" alt="SLA Claro"/><br/>
       <b>🧪 Resina (SLA)</b>
+      <img src="capturas/Screenshot_20260324_192553.png" width="250" alt="SLA Claro"/><br/>
     </td>
     <td align="center">
-      <img src="capturas/Screenshot_20260324_184751.png" width="250" alt="SLA Oscuro"/><br/>
       <b>🧪 Resina (SLA)</b>
+      <img src="capturas/Screenshot_20260324_184751.png" width="250" alt="SLA Oscuro"/><br/>
     </td>
   </tr>
 </table>
