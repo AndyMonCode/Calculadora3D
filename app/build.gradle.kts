@@ -1,14 +1,32 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
 }
 
+
+val keystorePropertiesFile = rootProject.file("local.properties")
+val keystoreProperties = Properties()
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+}
+
+
 android {
-    namespace = "com.example.calculadora3d"
-    compileSdk {
-        version = release(36)
+    signingConfigs {
+        create("release") {
+            storeFile = file(keystoreProperties.getProperty("keystore.path") ?: "")
+            storePassword = keystoreProperties.getProperty("keystore.password") ?: ""
+            keyAlias = keystoreProperties.getProperty("key.alias") ?: ""
+            keyPassword = keystoreProperties.getProperty("key.password") ?: ""
+        }
     }
+
+    namespace = "com.example.calculadora3d"
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.calculadora3d"
@@ -27,6 +45,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {
